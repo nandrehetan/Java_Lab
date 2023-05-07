@@ -14,5 +14,18 @@ public class arraylist {
         System.out.println(arr);
         System.out.println(arr.contains("Nandre"));
         
+        
+        
+        ArrayList<Integer> arr1 = new ArrayList<Integer>();
+        arr1.add(100);
+        arr1.add(99);
+        arr1.add(98);
+        arr1.add(97);
+        System.out.println(arr1.size());
+        System.out.println(arr1);
+
+        Collections.sort(arr1); //Sorting the list
+        System.out.println(arr1);
+        
     }
 }
